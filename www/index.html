@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>LAB - 1</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="app-title">
+        <h1>PLATAFORMAS EMERGENTES</h1>
+        <h2>Brian Gomez - Rony Ventura</h2>
+      </div>
+      <div class="image_container">
+        <img src="" id="picture_result" />
+      </div>
+
+      <div class="button_container">
+        <div class="button_container_top">
+          <button class="button discard" type="button" id="discard_photo_button">Descartar</button>
+          <button class="button save" type="button" id="take_photo_button">Tomar Foto</button>
+        </div>
+        <div class="button_container_bottom">
+          <button class="button close" type="button" id="close_photo_button">Salir</button>
+        </div>
+      </div>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
